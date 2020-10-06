@@ -7,4 +7,12 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
+  
+  <distributionManagement>
+<snapshotRepository>
+<id>nexus-cicd</id>
+<name>cicd-lab10</name>
+<url>http://localhost:8081/repository/cicd-lab10/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
